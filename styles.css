@@ -7,7 +7,17 @@ html {
 	font-size: 16px;
 }
 
+.page {
+	width: 80%;
+	margin: 0px auto;
+	padding: 30px;
+	background-color: #ddd;
+	color: #535353;
+}
+
 header h1 {
 	text-align: center;
 	color: navy;
 }
+
+
