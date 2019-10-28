@@ -15,9 +15,30 @@ html {
 	color: #535353;
 }
 
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
 header h1 {
 	text-align: center;
 	color: navy;
+}
+
+nav ul {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	padding: 15px 0;
+	border-bottom: 3px solid navy;
+	margin-bottom: 15px;
+}
+
+nav li {
+	list-style: none;
+}
+nav li a:hover{
+	color: orange;
 }
 
 
