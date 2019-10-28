@@ -23,6 +23,11 @@ a {
 header h1 {
 	text-align: center;
 	color: navy;
+	transition: all 0.8s;
+}
+
+.shadow {
+	text-shadow: 2px 2px yellow;
 }
 
 nav ul {
