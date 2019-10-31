@@ -30,6 +30,10 @@ header h1 {
 	text-shadow: 2px 2px yellow;
 }
 
+.nav {
+	background-color: #eee;
+}
+
 nav ul {
 	display: flex;
 	flex-flow: row wrap;
