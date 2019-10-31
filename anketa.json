@@ -1,0 +1,53 @@
+[ 
+  { 
+    "unit":"users_profile",
+    "method":"save",
+    "id":5489,
+    "data":{ 
+      "profile_email":"sv_sergey@i.ua",
+      "profile_login":"",
+      "profile_name":"Сергій",
+      "profile_phones":"+380989907085",
+      "profile_password":"",
+      "profile_compare":"",
+      "profile_address":"",
+      "profile_cities":"4067",
+      "profile_univer":"",
+      "profile_univer_year":"",
+      "profile_univer_level":"",
+      "profile_districts":"s110",
+      "rates_id":"39",
+      "practices_id":"11",
+      "profile_text":"Закінчив механіко-енергетичний факультет Національного авіаційного університету в 2008 році. \nМаю ступінь магістра за спеціальністю \"Газотурбінні установки та компресорні станції\".\nЗакінчив механіко-енергетичний факультет Національного авіаційного університету в 2008 році. \nМаю ступінь магістра за спеціальністю \"Газотурбінні установки та компресорні станції\".\nЗаняття проходять або на території учня або онлайн",
+      "profile_get":1,
+      "profile_house":0,
+      "profile_lessons":{ 
+        "123":[ 
+          "25"
+        ]
+      },
+      "profile_online":1,
+      "profile_skype":"test.skype",
+      "profile_sname":"Test",
+      "profile_fname":"",
+      "profile_travel":0,
+      "profile_sex":"1",
+      "profile_youtube":"",
+      "profile_pause":"",
+      "profile_univer_level_id":"4",
+      "profile_univer_id":"771",
+      "profile_age":"2",
+      "profile_description":"Репетитор з ісландської мови, базовий рівень",
+      "profile_lessons_info":{ 
+        "123":""
+      },
+      "locations_list":{ 
+
+      },
+      "timeslots":[ 
+
+      ]
+    },
+    "silent":false
+  }
+]
