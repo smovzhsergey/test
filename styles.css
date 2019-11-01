@@ -20,6 +20,13 @@ a {
 	color: inherit;
 }
 
+header {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
 header h1 {
 	text-align: center;
 	color: navy;
@@ -31,7 +38,7 @@ header h1 {
 }
 
 .nav {
-	background-color: #eee;
+	
 }
 
 nav ul {
@@ -39,15 +46,22 @@ nav ul {
 	flex-flow: row wrap;
 	justify-content: space-around;
 	padding: 15px 0;
-	border-bottom: 3px solid navy;
-	margin-bottom: 15px;
+	border-bottom: none;
 }
 
 nav li {
-	list-style: none;
+	list-style: none;	
+	margin: 10px 30px;
+}
+
+nav li a{
+	transition: all 0.4s;
+	padding: 3px 6px;
+	border-bottom: 2px solid transparent;
 }
 nav li a:hover{
 	color: orange;
+	border-bottom-color: orange;
 }
 section{
 	padding: 20px;
@@ -76,6 +90,25 @@ figcaption {
 	font-size: 0.825rem;
 }
 
+.section-title {
+	font-style: italic;
+	text-align: center;
+}
+
+.about-content {
+	display: flex;
+	/*justify-content: space-between;
+	flex-flow: row wrap;*/
+}
+
+.about-content > div {
+	flex: 0 1 auto;
+	background-color: #eee;
+	margin: 15px;
+	box-shadow: 0 0 15px -3px;
+	padding: 20px;
+	text-align: center;
+}
 
 
 
@@ -88,6 +121,12 @@ footer {
 	padding-top: 15px;
 	margin-top: 15px;
 	border-top: 3px solid navy;
+}
+
+footer p:first {
+	font-size: 0.8rem;
+	font-weight: bold;
+	font-style: italic;
 }
 
 
