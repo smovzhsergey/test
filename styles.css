@@ -109,4 +109,10 @@ footer {
 	border-top: 3px solid navy;
 }
 
+footer p:first {
+	font-size: 0.8rem;
+	font-weight: bold;
+	font-style: italic;
+}
+
 
