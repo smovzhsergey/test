@@ -30,6 +30,10 @@ header h1 {
 	text-shadow: 2px 2px yellow;
 }
 
+.nav {
+	background-color: #eee;
+}
+
 nav ul {
 	display: flex;
 	flex-flow: row wrap;
@@ -45,6 +49,34 @@ nav li {
 nav li a:hover{
 	color: orange;
 }
+section{
+	padding: 20px;
+}
+
+article {
+	box-shadow: 0 0 15px -3px;
+	padding: 10px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	margin: 20px 0;
+}
+
+
+
+figure {
+	width: 30%;
+	text-align: center;
+	margin-right: 15px;
+}
+
+figcaption {
+	font-style: italic;
+	font-weight: 600;
+	font-size: 0.825rem;
+}
+
+
 
 
 /*======================================
