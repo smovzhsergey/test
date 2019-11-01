@@ -76,6 +76,20 @@ figcaption {
 	font-size: 0.825rem;
 }
 
+.about {
+	display: flex;
+	/*justify-content: space-between;
+	flex-flow: row wrap;*/
+}
+
+.about > div {
+	flex: 0 1 auto;
+	background-color: #eee;
+	margin: 15px;
+	box-shadow: 0 0 15px -3px;
+	padding: 20px;
+	text-align: center;
+}
 
 
 
