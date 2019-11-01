@@ -76,13 +76,18 @@ figcaption {
 	font-size: 0.825rem;
 }
 
-.about {
+.section-title {
+	font-style: italic;
+	text-align: center;
+}
+
+.about-content {
 	display: flex;
 	/*justify-content: space-between;
 	flex-flow: row wrap;*/
 }
 
-.about > div {
+.about-content > div {
 	flex: 0 1 auto;
 	background-color: #eee;
 	margin: 15px;
