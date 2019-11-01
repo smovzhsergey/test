@@ -90,6 +90,25 @@ figcaption {
 	font-size: 0.825rem;
 }
 
+.section-title {
+	font-style: italic;
+	text-align: center;
+}
+
+.about-content {
+	display: flex;
+	/*justify-content: space-between;
+	flex-flow: row wrap;*/
+}
+
+.about-content > div {
+	flex: 0 1 auto;
+	background-color: #eee;
+	margin: 15px;
+	box-shadow: 0 0 15px -3px;
+	padding: 20px;
+	text-align: center;
+}
 
 
 
@@ -102,6 +121,12 @@ footer {
 	padding-top: 15px;
 	margin-top: 15px;
 	border-top: 3px solid navy;
+}
+
+footer p:first {
+	font-size: 0.8rem;
+	font-weight: bold;
+	font-style: italic;
 }
 
 
