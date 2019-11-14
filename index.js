@@ -8,3 +8,5 @@ const header = document.querySelector('header > h1');
 			header.classList.add('shadow')
 	}, 2000) } 
 )(title);
+
+console.log('aaaaa')
